@@ -1,0 +1,53 @@
+.movie-page  {
+   display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 2rem auto;
+    
+}
+
+.movie-page .info {
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    margin: 0.4rem 2rem 0rem 0rem;
+}
+
+.movie-page .info-des {
+    display: grid;
+    text-align: center;
+    margin: 1.5rem 2rem 2rem 0rem;
+   
+}
+
+.movie-page .info-des h3 {
+   
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    color: #CF0000;
+}
+   
+.movie-page .movie-card {
+    text-align: center;
+}
+
+.movie-page .movie-card p {
+    margin: 0rem 0rem 1.1rem;
+    font-size: 1.5rem;
+}
+
+.movie-page .movie-card h2 {
+    margin: 1rem 0rem 1rem 0rem;
+    font-size: 2.5rem;
+    color: #CF0000;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.movie-page .info p {
+  color:#CF0000;
+}

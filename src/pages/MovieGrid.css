@@ -1,0 +1,70 @@
+.container .title {
+    font-size: 2.5rem;
+    color: #CF0000;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text{
+    color: #1EA8FF ;
+}
+
+.movies-container {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+.movies-container div {
+   width: 30%;
+   align-items: center;
+   color: white;
+   margin-bottom: 2.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 1rem;
+   background-color: #1EA8FF;
+}
+
+.movies-container div img {
+   max-width: 100%;
+ }
+
+ .movies-container div h2 {
+   text-align: center;
+ }
+
+ .movies-container div a {
+  background-color: #CF0000 ;
+  border: 2px solid #CF0000;
+  border-radius: 4px;
+  color: white;
+  padding: 1rem .5rem;
+  display: flex;
+  align-items: center;
+  transition: 0.15ms;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  margin: 1rem 0 0.5rem 0;
+  box-shadow: 4px 3px 5px 1px black
+ }
+
+ .movies-container div a:hover{
+  background-color: #1C1C1C;
+  color: #CF0000;
+}
+
+ .movies-container div svg {
+  color: yellow;
+ }
+
+ .container svg {
+    color: white;
+    width: 25px;
+    height: 25px;
+ }
